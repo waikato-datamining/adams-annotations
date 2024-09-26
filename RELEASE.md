@@ -11,7 +11,4 @@ How to make a release
 
 * Push all changes
 
-* Update documentation
-
-  * update artifact version
-
+* Update artifact version in README.md
