@@ -9,8 +9,12 @@ How to make a release
   mvn release:clean release:prepare release:perform
   ```
 
-* Close/release artifacts on https://oss.sonatype.org/
-
 * Push all changes
 
-* Update artifact version in README.md
+* Go to the following URL and publish the artifact:
+
+  ```
+  https://central.sonatype.com/publishing/deployments
+  ```
+
+* Update artifact version in [README.md](README.md#dependency)
