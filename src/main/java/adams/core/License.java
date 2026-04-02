@@ -15,7 +15,7 @@
 
 /*
  * License.java
- * Copyright (C) 2012-2024 University of Waikato, Hamilton, New Zealand
+ * Copyright (C) 2012-2026 University of Waikato, Hamilton, New Zealand
  */
 package adams.core;
 
@@ -72,8 +72,10 @@ public enum License {
   /** LGPL 2.1. */
   LGPL3("LGPL", "3.0", "http://opensource.org/licenses/LGPL-3.0"),
   /** MIT. */
-  MIT("MIT", null, "http://opensource.org/licenses/MIT");
-  
+  MIT("MIT", null, "http://opensource.org/licenses/MIT"),
+  /** zlib. */
+  ZLIB("zlib/libpng", null, "https://opensource.org/license/zlib");
+
   /** the license. */
   private String m_License;
   
